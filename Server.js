@@ -498,7 +498,7 @@ app.post("/CheckVendor", (req, res) => {
 // Listening
 app.listen(port, async () => {
   try {
-    await mongoose.connect("mongodb+srv://demo:vuwV6K7Y2dMLX9U@cluster0.wbmpc.mongodb.net/test?retryWrites=true&w=majority", {
+    await mongoose.connect("mongodb:/localhost:27017/test", {
       useNewUrlParser: true,
       useCreateIndex: true,
       useUnifiedTopology: true,
