@@ -47,7 +47,7 @@ const AddBrand = new mongoose.Schema({
     unique: true,
   },
 });
-var whitelist = ['http://www.3pshopping.com/']
+var whitelist = ['http://3pshopping.com/']
 var corsOptions = {
   origin: function (origin, callback) {
     if (whitelist.indexOf(origin) !== -1) {
