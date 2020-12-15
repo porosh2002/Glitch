@@ -162,7 +162,7 @@ body {
     justify-content:space-between;
   }
   .contentOfFour{
-    height:500px;
+    height:700px;
     width: 100vw;
   }
   .cf1{
@@ -174,4 +174,19 @@ body {
   .cf3{
     background-color:#6b83c1;
   }
-}
+  .cf1Bg,.cf2Bg,.cf3Bg{
+    height:350px;
+  }
+  .cf1Bg{
+    background: url('../Images/h3-medical.jpg');
+    background-size: cover;
+  }
+  .cf2Bg{
+    background: url('../Images/project.jpg');
+    background-size: cover;
+  }
+  .cf3Bg{
+    background: url('../Images/consulting.jpg');
+    background-size: cover;
+  }
+  }
