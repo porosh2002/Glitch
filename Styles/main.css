@@ -189,4 +189,22 @@ body {
     background: url('../Images/consulting.jpg');
     background-size: cover;
   }
+  .cf1coverBG{
+    height:350px;
+    background:url('../Images/icon-1.png') no-repeat;
+    background-position:130% 90%;
+    background-size: 50%;
+  }
+  .cf2coverBG{
+    height:350px;
+    background:url('../Images/icon-2.png') no-repeat;
+    background-position:130% 90%;
+    background-size: 50%;
+  }
+  .cf3coverBG{
+    height:350px;
+    background:url('../Images/icon-3.png') no-repeat;
+    background-position:105% 90%;
+    background-size: 40%;
+  }
   }
