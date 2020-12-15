@@ -164,6 +164,7 @@ body {
   .contentOfFour{
     height:700px;
     width: 100vw;
+    overflow: hidden;
   }
   .cf1{
     background-color: #73ba9d;
@@ -192,7 +193,7 @@ body {
   .cf1coverBG{
     height:350px;
     background:url('../Images/icon-1.png') no-repeat;
-    background-position:130% 90%;
+    background-position:130% 70%;
     background-size: 50%;
   }
   .cf2coverBG{
@@ -206,5 +207,42 @@ body {
     background:url('../Images/icon-3.png') no-repeat;
     background-position:105% 90%;
     background-size: 40%;
+  }
+  .cf1coverBG,.cf2coverBG,.cf3coverBG{
+    padding:50px 0px 0px 30px;
+    color: #f7f7f7;
+  }
+  .contentFourTitle{
+    font-size:25px;
+    letter-spacing:1px;
+    font-weight: 600;
+  }
+  .contentFourDes{
+    font-size:17px;
+    letter-spacing:1px;
+    margin:40px 50% 0px 0px;
+    line-height:25px;
+    font-family: "Proxima Nova Light";
+  }
+  .contentFourBTN{
+    border:1px solid #fff;
+    outline: none;
+    border-radius:3px;
+    padding:10px 15px;
+    color: #fff;
+    font-size:17px;
+    font-weight: 600;
+    letter-spacing:1px;
+    background-color: transparent;
+    position: relative;
+    top:10%;
+    left:5%;
+    transform: translate(-10%,-5%);
+    cursor: pointer;
+  }
+  .contentFourBTN:hover{
+background-color: #fff;
+color: #444;
+transition: 0.5s;
   }
   }
