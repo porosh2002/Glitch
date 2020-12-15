@@ -230,8 +230,8 @@ body {
     border-radius:3px;
     padding:10px 15px;
     color: #fff;
-    font-size:17px;
-    font-weight: 600;
+    font-size:15px;
+    font-weight:600;
     letter-spacing:1px;
     background-color: transparent;
     position: relative;
@@ -240,9 +240,19 @@ body {
     transform: translate(-10%,-5%);
     cursor: pointer;
   }
+  .contentMiddleBTN{
+    display: block;
+    margin: 0px auto;
+    background-color: #fff;
+    color: #444;
+  }
   .contentFourBTN:hover{
-background-color: #fff;
-color: #444;
-transition: 0.5s;
+    background-color: #fff;
+    color: #444;
+    transition: 0.5s;
+  }
+  .contentMiddleBTN:hover{
+    background-color:transparent;
+    color: #fff;
   }
   }
