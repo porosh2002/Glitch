@@ -113,13 +113,10 @@ body {
   }
   .thirdSectionContent {
     text-align: center;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: #fff;
     font-size: 40px;
     letter-spacing: 1px;
+    padding-top:100px;
     font-family: "Proxima Nova Light";
   }
   .inputSearch {
@@ -154,5 +151,27 @@ body {
   .SearchBTN:hover {
     background-color: #1b1740;
     border: 1px solid transparent;
+  }
+  option{
+    font-weight: bold;
+    padding:10px 0px;
+  }
+  /* Fourth Section */
+  .contentFour{
+    display: flex;
+    justify-content:space-between;
+  }
+  .contentOfFour{
+    height:500px;
+    width: 100vw;
+  }
+  .cf1{
+    background-color: #73ba9d;
+  }
+  .cf2{
+    background-color:#6baac1;
+  }
+  .cf3{
+    background-color:#6b83c1;
   }
 }
