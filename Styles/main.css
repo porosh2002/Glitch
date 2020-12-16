@@ -263,5 +263,21 @@ body {
     font-size:30px;
     text-align: center;
   }
+.slide-wrap{
+  padding: 50px 10%;
+}
+.item{
+  margin-bottom:70px;
+}
+.owl-dot{
+  outline: none !important;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #51499c !important;
+}
+.owl-theme .owl-dots .owl-dot span {
+  background:transparent !important;
+  border: 1px solid #51499c !important;
 
+}
   }
