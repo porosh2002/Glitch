@@ -262,12 +262,16 @@ body {
     font-weight: 600;
     font-size:30px;
     text-align: center;
+    color: #1b1740;
+  }
+  .slider-content-title{
+    color: #1b1740;
   }
 .slide-wrap{
   padding: 50px 10%;
 }
 .item{
-  margin-bottom:70px;
+  margin:0px 10px 70px 10px;
 }
 .owl-dot{
   outline: none !important;
@@ -278,6 +282,30 @@ body {
 .owl-theme .owl-dots .owl-dot span {
   background:transparent !important;
   border: 1px solid #51499c !important;
-
+}
+.slider0c0des{
+  color: #51499c;
+  margin:25px 0px 15px 0px;
+}
+.sldr-c-des{
+  font-size:14px;
+  color: #444;
+  font-weight: 600;
+  margin:25px 0px;
+}
+.slider-describe{
+  color: #444;
+  font-size:16px;
+  margin: 15px 0px 30px 0px;
+  padding-right:45px;
+  word-spacing:2px;
+  letter-spacing: .5px;
+}
+.latestpole_btn a {
+  font-size:13px;
+  color: #51499c;
+  margin-right:20px;
+  font-weight: bold;
+  text-decoration: none;
 }
   }
