@@ -339,4 +339,46 @@ color: #ffff;
   margin-left:70px;
   line-height:25px;
 }
+.fiveSectionContentDes2{
+  letter-spacing:1px;
+  margin:20px 0% 0px 0px;
+  line-height:25px;
+  color: #444;
+}
+/* sixSection */
+.sixSection{
+  height:450px;
+  background-color: #fff;
+  padding:0px 10% 70px 10%;
+  display:flex;
+  justify-content:space-between;
+}
+.sixTitle{
+  color: #1b1740;
+  margin-top:100px;
+  font-size: 40px;
+}
+.six-content{
+  text-align: left;
+  width:50%;
+}
+.six-btn{
+  padding:10px 15px;
+  margin-top:30px;
+  border: 1px solid #51499c;
+  color: #51499c;
+  font-weight: 600;
+  border-radius:3px;
+  outline: none;
+  cursor: pointer;
+}
+.six-btn:hover{
+  border: 1px solid transparent;
+  background-color: #51499c;
+  color: #fff;
+}
+.sixImage{
+  height: 300px;
+  padding-top:130px;
+}
   }
