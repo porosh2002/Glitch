@@ -308,4 +308,35 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
+/* fiveSection */
+.fiveSection{
+  height:650px;
+  background: url('../Images/shutterstock_1033103851.jpg');
+  background-position:left;
+  background-size: cover;
+}
+.fiveSectionContent{
+  width:50%;
+  background-color: #615b9b;
+  height:85%;
+float: right;
+margin-top:97.5px;
+color: #ffff;
+}
+.fiveSectionContentTitle{
+  letter-spacing:1px;
+  margin:50px 50% 0px 0px;
+  font-family: "Proxima Nova Light";
+  font-size:50px;
+  width:70%;
+  margin-left:70px;
+}
+.fiveSectionContentDes{
+  letter-spacing:1px;
+  margin:20px 0% 0px 0px;
+  font-family: "Proxima Nova Light";
+  width:82%;
+  margin-left:70px;
+  line-height:25px;
+}
   }
