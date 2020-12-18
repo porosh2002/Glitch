@@ -423,4 +423,11 @@ color: #ffff;
 .logo-t-ftr-wrp{
   display:flex;
 }
+.devIcon{
+  height:40px;
+}
+.ftr-social img{
+  height:30px;
+  margin:40px 1px 0px 1px;
+}
   }
