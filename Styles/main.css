@@ -475,6 +475,9 @@ padding:10px 15px;
 .mobile{
   display: none;
 }
+.None{
+  display: none;
+}
   }
 @media screen and (max-width:899px){
 .pc-dev{
