@@ -483,16 +483,17 @@ padding:10px 15px;
 .mobile{
   position: fixed;
 height:100vh;
-/* width:100vw; */
+width:100vw;
 background-color: #343a40;
-padding:0px 10px;
+/* padding:0px 10px; */
 }
 .mobile p{
 color: #f7f7f7;
+width:100%;
 position: absolute;
-width:300px;
 top: 50%;
 left: 50%;
+padding: 0px 35px;
 transform: translate(-50%,-50%);
 font-size: 18px;
 line-height:30px;
