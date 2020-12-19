@@ -1,3 +1,4 @@
+const BTN = document.getElementById('Search')
 $('.owl-carousel').owlCarousel({
     loop: true,
     center:true,
