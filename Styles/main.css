@@ -133,6 +133,20 @@ body {
     appearance: none;
     background-color: #fff;
   }
+  .Short-keyword-s {
+    font-size: 13px;
+    padding: 7px 15px;
+    outline: none;
+    width: 200px;
+    border: none;
+    font-weight: 600;
+    color: #29303b;
+    display: block;
+    margin:5px auto;
+    border-radius:2px;
+    appearance: none;
+    background-color: #fff;
+  }
   select {
     background: url("../Images/up-and-down.png") no-repeat left 94.5%
       center/15px 15px;
@@ -149,6 +163,24 @@ body {
     outline: none;
     cursor: pointer;
     letter-spacing:.5px;
+  }
+  .SearchBTN-srt{
+  display: block;
+  margin: 10px auto;
+    padding:10px 15px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    letter-spacing:.5px;
+  }
+  .SearchBTN-srt:hover {
+    background-color: #1b1740;
+    border: 1px solid transparent;
   }
   .SearchBTN:hover {
     background-color: #1b1740;
@@ -429,5 +461,15 @@ color: #ffff;
 .ftr-social img{
   height:30px;
   margin:40px 1px 0px 1px;
+}
+.shortSearch{
+padding:10px 15px;
+  background-color:  #756fac;
+  border-radius:5px;
+  position: absolute;
+  z-index:99999;
+  position: fixed;
+  right:110px;
+  top:72px;
 }
   }
