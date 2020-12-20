@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  outline: none;
 }
 body {
   font-family: "Proxima Nova";
@@ -503,11 +504,33 @@ padding:10px 15px;
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 .mobile-cntnt{
-  /* width:60px; */
   display: flex;
- /* margin-left:30px; */
+  color: #615b9b;
 }
 .mobile-cntnt div{
-/* margin: 0px 10px; */
+  margin: 0px 10px;
+}
+/* Third */
+.thirdSection {
+  height: 150px;
+  background: url("../Images/icon-watermark.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size:70%;
+}
+.bgGradient {
+  height: 100%;
+  background: linear-gradient(to right, #51499ce0, #493481, #20195f);
+}
+.thirdSectionContent {
+  text-align: center;
+  color: #fff;
+  font-size:25px;
+  letter-spacing: 1px;
+  font-family: "Proxima Nova Light";
+  padding-top: 55px;
+}
+.connect-m{
+  font-size:30px !important;
 }
   }
