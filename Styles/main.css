@@ -85,6 +85,9 @@ body {
   z-index:999;
 }
 @media screen and (min-width: 900px) {
+  .m-mBTN{
+    display: none;
+  }
   .mainNav {
     height: 100px;
     position: sticky;
@@ -541,7 +544,8 @@ padding:10px 15px;
   display: none;
 }
 .contentFourTitle{
-  font: size 20px;
+  font-size: 20px;
+  line-height:25px;
 }
 
 .contentFourBTN{
@@ -605,5 +609,51 @@ padding:10px 15px;
 }
 .owl-theme .owl-dots .owl-dot span {
 display: none;
+}
+/* Five Section (Connect Group of Companies) */
+.fiveSection{
+  height:450px;
+  background-color: #615b9b;
+  color: #f7f7f7;
+  display: block;
+  margin:0px auto;
+}
+.sixImage{
+  display: none;
+}
+.fiveSectionContent{
+  height:85%;
+color: #ffff;
+  padding:50px 20px ;
+}
+.fiveSectionContentTitle{
+  letter-spacing:1px;
+  font-family: "Proxima Nova Light";
+  font-size:40px;
+  width:90%;
+  line-height:45px;
+}
+.fiveSectionContentDes{
+  letter-spacing:1px;
+  font-family: "Proxima Nova Light";
+  width:95%;
+  line-height:25px;
+  margin-top: 30px;
+}
+.rmv-m{
+display: none;
+}
+.m-mBTN{
+  margin: 20px 0px 0px 0px;
+  padding:10px 15px;
+  background-color: transparent;
+  border-radius:3px;
+  border:1.5px solid #fff;
+  color: #f7f7f7;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.cgc{
+  height:250px;
 }
   }
