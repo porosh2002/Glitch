@@ -190,6 +190,7 @@ body {
   border-radius:3px;
   outline: none;
   cursor: pointer;
+  background-color: transparent;
 }
 .six-btn:hover{
   border: 1px solid transparent;
@@ -218,6 +219,9 @@ body {
   background-size: cover;
 }
 @media screen and (min-width: 900px) {
+  .cgc,.footer-m{
+    display: none;
+  }
   .thirdSection {
     height: 350px;
     background: url("../Images/icon-watermark.png");
@@ -669,7 +673,7 @@ display: none;
   letter-spacing: 0.5px;
 }
 .cgc{
-  height:250px;
+  width:100vw;
 }
 
 
@@ -681,7 +685,7 @@ display: none;
 .sixSection{
   height:250px;
   background-color: #fff;
-  padding:0px 20px 30px 20px;
+  padding:0px 20px 70px 20px;
   display:flex;
   justify-content:space-between;
 }
@@ -699,6 +703,36 @@ display: none;
   line-height:25px;
 }
 
-
-
+.footer{
+  display: none;
+}
+.footer-m
+{
+  padding:20px;
+  background-color:#1b1740;
+}
+.ftr-m-c{
+color: #756fac;
+ font-weight: bolder;
+ display: flex;
+ margin-top: 20px;
+}
+.fa-phone-alt{
+  margin: 0px 10px -2px 0px;
+}
+.add-m{
+  color: #fff;
+  margin:5px 30px;
+}
+.ftr-social{
+  height:30px;
+  margin:20px 0px 20px 25px;
+}
+.ftr-logo-des{
+  font-size:13px;
+  margin: 40px 0px 20px 20px;
+  color: #fff;
+  letter-spacing:.5px;
+  line-height:25px;
+}
   }
