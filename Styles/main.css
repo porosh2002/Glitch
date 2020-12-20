@@ -168,6 +168,16 @@ body {
   background-color:transparent;
   color: #fff;
 }
+.sliderTitle{
+  margin:70px 0px;
+  font-weight: 600;
+  font-size:30px;
+  text-align: center;
+  color: #1b1740;
+}
+.slider-content-title{
+  color: #1b1740;
+}
 .cf1{
   background-color: #73ba9d;
 }
@@ -289,16 +299,6 @@ body {
   }
   .cf1Bg,.cf2Bg,.cf3Bg{
     height:350px;
-  }
-  .sliderTitle{
-    margin:70px 0px;
-    font-weight: 600;
-    font-size:30px;
-    text-align: center;
-    color: #1b1740;
-  }
-  .slider-content-title{
-    color: #1b1740;
   }
 .slide-wrap{
   padding: 50px 10%;
@@ -579,5 +579,31 @@ padding:10px 15px;
   width:33%;
   background: url('../Images/consulting.jpg');
   background-size: cover;
+}
+.slider0c0des{
+  margin:25px 0px 15px 20px;
+}
+.sldr-c-des{
+  margin:25px 20px;
+}
+.slider-describe{
+  margin: 15px 0px 30px 20px;
+  padding-right:10px;
+}
+.slider-content-title{
+  margin: 0px 0px 0px 20px;
+}
+.latestpole_btn{
+  margin-left:25px;
+  font-size:16px;
+  font-weight: 600;
+  margin-bottom:30px;
+}
+.latestpole_btn a{
+  text-decoration: none;
+  margin-right:20px;
+}
+.owl-theme .owl-dots .owl-dot span {
+display: none;
 }
   }
