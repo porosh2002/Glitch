@@ -82,10 +82,10 @@ body {
 .mainNav {
   position: sticky;
   top: 0;
-  z-index:999;
+  z-index: 999;
 }
 @media screen and (min-width: 900px) {
-  .m-mBTN{
+  .m-mBTN {
     display: none;
   }
   .mainNav {
@@ -102,124 +102,127 @@ body {
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
     height: 70px;
     background-color: #1b1740;
-    z-index:999;
+    z-index: 999;
   }
 }
 /* Third Section */
-.cf1coverBG{
-  height:350px;
-  background:url('../Images/icon-1.png') no-repeat;
-  background-position:130% 70%;
+.cf1coverBG {
+  height: 350px;
+  background: url("../Images/icon-1.png") no-repeat;
+  background-position: 130% 70%;
   background-size: 50%;
 }
-.cf2coverBG{
-  height:350px;
-  background:url('../Images/icon-2.png') no-repeat;
-  background-position:130% 90%;
+.cf2coverBG {
+  height: 350px;
+  background: url("../Images/icon-2.png") no-repeat;
+  background-position: 130% 90%;
   background-size: 50%;
 }
-.cf3coverBG{
-  height:350px;
-  background:url('../Images/icon-3.png') no-repeat;
-  background-position:105% 90%;
+.cf3coverBG {
+  height: 350px;
+  background: url("../Images/icon-3.png") no-repeat;
+  background-position: 105% 90%;
   background-size: 40%;
 }
-.cf1coverBG,.cf2coverBG,.cf3coverBG{
-  padding:50px 0px 0px 30px;
+.cf1coverBG,
+.cf2coverBG,
+.cf3coverBG {
+  padding: 50px 0px 0px 30px;
   color: #f7f7f7;
 }
-.contentFourTitle{
-  font-size:25px;
-  letter-spacing:1px;
+.contentFourTitle {
+  font-size: 25px;
+  letter-spacing: 1px;
   font-weight: 600;
 }
-.contentFourDes{
-  font-size:17px;
-  letter-spacing:1px;
-  margin:40px 50% 0px 0px;
-  line-height:25px;
+.contentFourDes {
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin: 40px 50% 0px 0px;
+  line-height: 25px;
   font-family: "Proxima Nova Light";
 }
-.contentFourBTN{
-  border:1px solid #fff;
+.contentFourBTN {
+  border: 1px solid #fff;
   outline: none;
-  border-radius:3px;
-  padding:10px 15px;
+  border-radius: 3px;
+  padding: 10px 15px;
   color: #fff;
-  font-size:15px;
-  font-weight:600;
-  letter-spacing:1px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
   background-color: transparent;
   position: relative;
-  top:10%;
-  left:5%;
-  transform: translate(-10%,-5%);
+  top: 10%;
+  left: 5%;
+  transform: translate(-10%, -5%);
   cursor: pointer;
 }
-.contentMiddleBTN{
+.contentMiddleBTN {
   display: block;
   margin: 0px auto;
   background-color: #fff;
   color: #444;
 }
-.contentFourBTN:hover{
+.contentFourBTN:hover {
   background-color: #fff;
   color: #444;
   transition: 0.5s;
 }
-.contentMiddleBTN:hover{
-  background-color:transparent;
+.contentMiddleBTN:hover {
+  background-color: transparent;
   color: #fff;
 }
-.sliderTitle{
-  margin:70px 0px;
+.sliderTitle {
+  margin: 70px 0px;
   font-weight: 600;
-  font-size:30px;
+  font-size: 30px;
   text-align: center;
   color: #1b1740;
 }
-.slider-content-title{
+.slider-content-title {
   color: #1b1740;
 }
-.six-btn{
-  padding:10px 15px;
-  margin-top:30px;
+.six-btn {
+  padding: 10px 15px;
+  margin-top: 30px;
   border: 1px solid #51499c;
   color: #51499c;
   font-weight: 600;
-  border-radius:3px;
+  border-radius: 3px;
   outline: none;
   cursor: pointer;
   background-color: transparent;
 }
-.six-btn:hover{
+.six-btn:hover {
   border: 1px solid transparent;
   background-color: #51499c;
   color: #fff;
 }
-.cf1{
+.cf1 {
   background-color: #73ba9d;
 }
-.cf2{
-  background-color:#6baac1;
+.cf2 {
+  background-color: #6baac1;
 }
-.cf3{
-  background-color:#6b83c1;
+.cf3 {
+  background-color: #6b83c1;
 }
-.cf1Bg{
-  background: url('../Images/h3-medical.jpg');
+.cf1Bg {
+  background: url("../Images/h3-medical.jpg");
   background-size: cover;
 }
-.cf2Bg{
-  background: url('../Images/project.jpg');
+.cf2Bg {
+  background: url("../Images/project.jpg");
   background-size: cover;
 }
-.cf3Bg{
-  background: url('../Images/consulting.jpg');
+.cf3Bg {
+  background: url("../Images/consulting.jpg");
   background-size: cover;
 }
 @media screen and (min-width: 900px) {
-  .cgc,.footer-m{
+  .cgc,
+  .footer-m {
     display: none;
   }
   .thirdSection {
@@ -237,7 +240,7 @@ body {
     color: #fff;
     font-size: 40px;
     letter-spacing: 1px;
-    padding-top:100px;
+    padding-top: 100px;
     font-family: "Proxima Nova Light";
   }
   .inputSearch {
@@ -261,8 +264,8 @@ body {
     font-weight: 600;
     color: #29303b;
     display: block;
-    margin:5px auto;
-    border-radius:2px;
+    margin: 5px auto;
+    border-radius: 2px;
     appearance: none;
     background-color: #fff;
   }
@@ -281,12 +284,12 @@ body {
     border-radius: 3px;
     outline: none;
     cursor: pointer;
-    letter-spacing:.5px;
+    letter-spacing: 0.5px;
   }
-  .SearchBTN-srt{
-  display: block;
-  margin: 10px auto;
-    padding:10px 15px;
+  .SearchBTN-srt {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
     font-size: 13px;
     font-weight: 600;
     background-color: transparent;
@@ -295,7 +298,7 @@ body {
     border-radius: 3px;
     outline: none;
     cursor: pointer;
-    letter-spacing:.5px;
+    letter-spacing: 0.5px;
   }
   .SearchBTN-srt:hover {
     background-color: #1b1740;
@@ -305,119 +308,122 @@ body {
     background-color: #1b1740;
     border: 1px solid transparent;
   }
-  option{
+  option {
     font-weight: bold;
-    padding:10px 0px;
+    padding: 10px 0px;
   }
   /* Fourth Section */
-  .contentFour{
+  .contentFour {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
   }
-  .contentOfFour{
-    height:700px;
+  .contentOfFour {
+    height: 700px;
     width: 100vw;
     overflow: hidden;
   }
-  .cf1Bg,.cf2Bg,.cf3Bg{
-    height:350px;
+  .cf1Bg,
+  .cf2Bg,
+  .cf3Bg {
+    height: 350px;
   }
-.slide-wrap{
-  padding: 50px 10%;
-}
-.item{
-  margin:0px 10px 70px 10px;
-}
-.owl-dot{
-  outline: none !important;
-}
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #51499c !important;
-}
-.owl-theme .owl-dots .owl-dot span {
-  background:transparent !important;
-  border: 1px solid #51499c !important;
-}
-.slider0c0des{
-  color: #51499c;
-  margin:25px 0px 15px 0px;
-}
-.sldr-c-des{
-  font-size:14px;
-  color: #444;
-  font-weight: 600;
-  margin:25px 0px;
-}
-.slider-describe{
-  color: #444;
-  font-size:16px;
-  margin: 15px 0px 30px 0px;
-  padding-right:45px;
-  word-spacing:2px;
-  letter-spacing: .5px;
-}
-.latestpole_btn a {
-  font-size:13px;
-  color: #51499c;
-  margin-right:20px;
-  font-weight: bold;
-  text-decoration: none;
-}
-/* fiveSection */
-.fiveSection{
-  height:650px;
-  background: url('../Images/shutterstock_1033103851.jpg');
-  background-position:left;
-  background-size: cover;
-}
-.fiveSectionContent{
-  width:50%;
-  background-color: #615b9b;
-  height:85%;
-float: right;
-margin-top:97.5px;
-color: #ffff;
-}
-.fiveSectionContentTitle{
-  letter-spacing:1px;
-  margin:50px 50% 0px 0px;
-  font-family: "Proxima Nova Light";
-  font-size:50px;
-  width:70%;
-  margin-left:70px;
-}
-.fiveSectionContentDes{
-  letter-spacing:1px;
-  margin:20px 0% 0px 0px;
-  font-family: "Proxima Nova Light";
-  width:82%;
-  margin-left:70px;
-  line-height:25px;
-}
-.fiveSectionContentDes2{
-  letter-spacing:1px;
-  margin:20px 0% 0px 0px;
-  line-height:25px;
-  color: #444;
-}
-/* sixSection */
-.sixSection{
-  height:450px;
-  background-color: #fff;
-  padding:0px 10% 70px 10%;
-  display:flex;
-  justify-content:space-between;
-}
-.sixTitle{
-  color: #1b1740;
-  margin-top:100px;
-  font-size: 40px;
-}
-.six-content{
-  text-align: left;
-  width:50%;
-}
-/* .six-btn{
+  .slide-wrap {
+    padding: 50px 10%;
+  }
+  .item {
+    margin: 0px 10px 70px 10px;
+  }
+  .owl-dot {
+    outline: none !important;
+  }
+  .owl-theme .owl-dots .owl-dot.active span,
+  .owl-theme .owl-dots .owl-dot:hover span {
+    background: #51499c !important;
+  }
+  .owl-theme .owl-dots .owl-dot span {
+    background: transparent !important;
+    border: 1px solid #51499c !important;
+  }
+  .slider0c0des {
+    color: #51499c;
+    margin: 25px 0px 15px 0px;
+  }
+  .sldr-c-des {
+    font-size: 14px;
+    color: #444;
+    font-weight: 600;
+    margin: 25px 0px;
+  }
+  .slider-describe {
+    color: #444;
+    font-size: 16px;
+    margin: 15px 0px 30px 0px;
+    padding-right: 45px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+  }
+  .latestpole_btn a {
+    font-size: 13px;
+    color: #51499c;
+    margin-right: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  /* fiveSection */
+  .fiveSection {
+    height: 650px;
+    background: url("../Images/shutterstock_1033103851.jpg");
+    background-position: left;
+    background-size: cover;
+  }
+  .fiveSectionContent {
+    width: 50%;
+    background-color: #615b9b;
+    height: 85%;
+    float: right;
+    margin-top: 97.5px;
+    color: #ffff;
+  }
+  .fiveSectionContentTitle {
+    letter-spacing: 1px;
+    margin: 50px 50% 0px 0px;
+    font-family: "Proxima Nova Light";
+    font-size: 50px;
+    width: 70%;
+    margin-left: 70px;
+  }
+  .fiveSectionContentDes {
+    letter-spacing: 1px;
+    margin: 20px 0% 0px 0px;
+    font-family: "Proxima Nova Light";
+    width: 82%;
+    margin-left: 70px;
+    line-height: 25px;
+  }
+  .fiveSectionContentDes2 {
+    letter-spacing: 1px;
+    margin: 20px 0% 0px 0px;
+    line-height: 25px;
+    color: #444;
+  }
+  /* sixSection */
+  .sixSection {
+    height: 450px;
+    background-color: #fff;
+    padding: 0px 10% 70px 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sixTitle {
+    color: #1b1740;
+    margin-top: 100px;
+    font-size: 40px;
+  }
+  .six-content {
+    text-align: left;
+    width: 50%;
+  }
+  /* .six-btn{
   padding:10px 15px;
   margin-top:30px;
   border: 1px solid #51499c;
@@ -432,307 +438,323 @@ color: #ffff;
   background-color: #51499c;
   color: #fff;
 } */
-.sixImage{
-  height: 300px;
-  padding-top:130px;
-}
-/* Footer */
-.footer{
-  height:300px;
-  background-color:#100c29;
-  padding:0px 3%;
-  display: flex;
-  justify-content:space-between;
-}
-.footer-logo{
-  height:70px;
-  margin: 70px 0px 30px 0%;
-}
-.ftr-logo-des{
-  font-size:13px;
-  margin: 0px 0px 30px 0%;
-  color: #fff;
-  letter-spacing:.5px;
-}
-
-.ftr-lst-cntnt{
-  width:280px;
-  text-align: right;
-  margin-left:30px;
-}
-.ftr-lst-cntnt-des{
-  color: #f7f7f7;
-  font-family: "Proxima Nova Light";
-  line-height:30px;
-}
-.titleLogo{
-  display: flex;
-  color: #756fac;
-  font-weight: 600;
-  font-size: 16px;
-  margin:100px 0px 20px 0px;
-}
-.titleLogo p{
- margin-left: 5px;
-}
-.logo-t-ftr-wrp{
-  display:flex;
-}
-.devIcon{
-  height:40px;
-}
-.ftr-social img{
-  height:30px;
-  margin:40px 1px 0px 1px;
-}
-.shortSearch{
-padding:10px 15px;
-  background-color:  #756fac;
-  border-radius:5px;
-  position: absolute;
-  z-index:99999;
-  position: fixed;
-  right:110px;
-  top:72px;
-}
-.mobile{
-  display: none;
-}
-.None{
-  display: none;
-}
-.mobile-cntnt{
-  display: none;
-}
+  .sixImage {
+    height: 300px;
+    padding-top: 130px;
   }
-  /* Mobile */
-@media screen and (max-width:899px){
-.secoundNavigation,.mainButtonDIV-M,.shortSearch,.ThirdSectionSearch{
-  display:none;
-}
-.logo{
-  height:50px;
-}
-.logo_bar{
-  height: 100px;
+  /* Footer */
+  .footer {
+    height: 300px;
+    background-color: #100c29;
+    padding: 0px 3%;
     display: flex;
-    width:100vw;
-    justify-content:space-around;
-    align-items: center;
-  background-color: #fff;
-  position:sticky;
-  top:0px;
-  z-index:999999999;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
-}
-.mobile-cntnt{
-  display: flex;
-  color: #615b9b;
-}
-.mobile-cntnt div{
-  margin: 0px 10px;
-}
-/* Third */
-.thirdSection {
-  height: 150px;
-  background: url("../Images/icon-watermark.png");
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size:70%;
-}
-.bgGradient {
-  height: 100%;
-  background: linear-gradient(to right, #51499ce0, #493481, #20195f);
-}
-.thirdSectionContent {
-  text-align: center;
-  color: #fff;
-  font-size:25px;
-  letter-spacing: 1px;
-  font-family: "Proxima Nova Light";
-  padding-top: 55px;
-}
-.connect-m{
-  font-size:30px !important;
-}
-/* contentFour */
-.contentFour{
-  display: block;
-}
-.cf1Bg,.cf2Bg,.cf3Bg{
-  display: none;
-}
-.contentFourTitle{
-  font-size: 20px;
-  line-height:25px;
-}
-
-.contentFourBTN{
-  font-size:14px;
-  letter-spacing: 0.5px;
-}
-.cf1coverBG{
-  height:300px;
-}
-.cf2coverBG{
-  height:300px;
-}
-.cf3coverBG{
-  height:300px;
-
-}
-.SecImgM{
-  display: flex;
-  /* height:150px; */
-}
-.SecImgM_1{
-  height:100px;
-  width:33%;
-  background: url('../Images/h3-medical.jpg');
-  background-size: cover;
-}
-.SecImgM_2{
-  height:100px;
-  width:33%;
-  background: url('../Images/project.jpg');
-  background-size: cover;
-}
-.SecImgM_3{
-  height:100px;
-  width:33%;
-  background: url('../Images/consulting.jpg');
-  background-size: cover;
-}
-.slider0c0des{
-  margin:25px 0px 15px 20px;
-}
-.sldr-c-des{
-  margin:25px 20px;
-}
-.slider-describe{
-  margin: 15px 0px 30px 20px;
-  padding-right:10px;
-}
-.slider-content-title{
-  margin: 0px 0px 0px 20px;
-}
-.latestpole_btn{
-  margin-left:25px;
-  font-size:13px;
-  font-weight: 600;
-  margin-bottom:30px;
-}
-.latestpole_btn a{
-  text-decoration: none;
-  margin-right:20px;
-}
-.owl-theme .owl-dots .owl-dot span {
-display: none;
-}
-/* Five Section (Connect Group of Companies) */
-.fiveSection{
-  height:450px;
-  background-color: #615b9b;
-  color: #f7f7f7;
-  display: block;
-  margin:0px auto;
-}
-.sixImage{
-  display: none;
-}
-.fiveSectionContent{
-  height:85%;
-color: #ffff;
-  padding:50px 20px ;
-}
-.fiveSectionContentTitle{
-  letter-spacing:1px;
-  font-family: "Proxima Nova Light";
-  font-size:40px;
-  width:90%;
-  line-height:45px;
-}
-.fiveSectionContentDes{
-  letter-spacing:1px;
-  font-family: "Proxima Nova Light";
-  width:95%;
-  line-height:25px;
-  margin-top: 30px;
-}
-.rmv-m{
-display: none;
-}
-.m-mBTN{
-  margin: 20px 0px 10px 0px;
-  padding:10px 15px;
-  background-color: transparent;
-  border-radius:3px;
-  border:1.5px solid #fff;
-  color: #f7f7f7;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-}
-.cgc{
-  width:100vw;
-}
-
-
-
-
-
-
-
-.sixSection{
-  height:250px;
-  background-color: #fff;
-  padding:0px 20px 70px 20px;
-  display:flex;
-  justify-content:space-between;
-}
-.sixTitle{
-  color: #1b1740;
-  margin-top:50px;
-  font-size: 40px;
-}
-.six-content{
-  text-align: left;
-  width:95%;
-}
-.sixdes{
-  margin-top:30px;
-  line-height:25px;
-}
-
-.footer{
-  display: none;
-}
-.footer-m
-{
-  padding:20px;
-  background-color:#1b1740;
-}
-.ftr-m-c{
-color: #756fac;
- font-weight: bolder;
- display: flex;
- margin-top: 20px;
-}
-.fa-phone-alt{
-  margin: 0px 10px -2px 0px;
-}
-.add-m{
-  color: #fff;
-  margin:5px 30px;
-}
-.ftr-social{
-  height:30px;
-  margin:20px 0px 20px 25px;
-}
-.ftr-logo-des{
-  font-size:13px;
-  margin: 40px 0px 20px 20px;
-  color: #fff;
-  letter-spacing:.5px;
-  line-height:25px;
-}
+    justify-content: space-between;
   }
+  .footer-logo {
+    height: 70px;
+    margin: 70px 0px 30px 0%;
+  }
+  .ftr-logo-des {
+    font-size: 13px;
+    margin: 0px 0px 30px 0%;
+    color: #fff;
+    letter-spacing: 0.5px;
+  }
+
+  .ftr-lst-cntnt {
+    width: 280px;
+    text-align: right;
+    margin-left: 30px;
+  }
+  .ftr-lst-cntnt-des {
+    color: #f7f7f7;
+    font-family: "Proxima Nova Light";
+    line-height: 30px;
+  }
+  .titleLogo {
+    display: flex;
+    color: #756fac;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 100px 0px 20px 0px;
+  }
+  .titleLogo p {
+    margin-left: 5px;
+  }
+  .logo-t-ftr-wrp {
+    display: flex;
+  }
+  .devIcon {
+    height: 40px;
+  }
+  .ftr-social img {
+    height: 30px;
+    margin: 40px 1px 0px 1px;
+  }
+  .shortSearch {
+    padding: 10px 15px;
+    background-color: #756fac;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 99999;
+    position: fixed;
+    right: 110px;
+    top: 72px;
+  }
+  .mobile {
+    display: none;
+  }
+  .None {
+    display: none;
+  }
+  .mobile-cntnt {
+    display: none;
+  }
+}
+/* Mobile */
+@media screen and (max-width: 899px) {
+  .secoundNavigation,
+  .mainButtonDIV-M,
+  .shortSearch,
+  .ThirdSectionSearch {
+    display: none;
+  }
+  .logo {
+    height: 50px;
+  }
+  .logo_bar {
+    height: 100px;
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    top: 0px;
+    z-index: 999999999;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  }
+  .mobile-cntnt {
+    display: flex;
+    color: #615b9b;
+  }
+  .mobile-cntnt div {
+    margin: 0px 10px;
+  }
+  /* Third */
+  .thirdSection {
+    height: 150px;
+    background: url("../Images/icon-watermark.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 70%;
+  }
+  .bgGradient {
+    height: 100%;
+    background: linear-gradient(to right, #51499ce0, #493481, #20195f);
+  }
+  .thirdSectionContent {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: "Proxima Nova Light";
+    padding-top: 55px;
+  }
+  .connect-m {
+    font-size: 30px !important;
+  }
+  /* contentFour */
+  .contentFour {
+    display: block;
+  }
+  .cf1Bg,
+  .cf2Bg,
+  .cf3Bg {
+    display: none;
+  }
+  .contentFourTitle {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .contentFourBTN {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+  .cf1coverBG {
+    height: 300px;
+  }
+  .cf2coverBG {
+    height: 300px;
+  }
+  .cf3coverBG {
+    height: 300px;
+  }
+  .SecImgM {
+    display: flex;
+    /* height:150px; */
+  }
+  .SecImgM_1 {
+    height: 100px;
+    width: 33%;
+    background: url("../Images/h3-medical.jpg");
+    background-size: cover;
+  }
+  .SecImgM_2 {
+    height: 100px;
+    width: 33%;
+    background: url("../Images/project.jpg");
+    background-size: cover;
+  }
+  .SecImgM_3 {
+    height: 100px;
+    width: 33%;
+    background: url("../Images/consulting.jpg");
+    background-size: cover;
+  }
+  .slider0c0des {
+    margin: 25px 0px 15px 20px;
+  }
+  .sldr-c-des {
+    margin: 25px 20px;
+  }
+  .slider-describe {
+    margin: 15px 0px 30px 20px;
+    padding-right: 10px;
+  }
+  .slider-content-title {
+    margin: 0px 0px 0px 20px;
+  }
+  .latestpole_btn {
+    margin-left: 25px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .latestpole_btn a {
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  .owl-theme .owl-dots .owl-dot span {
+    display: none;
+  }
+  /* Five Section (Connect Group of Companies) */
+  .fiveSection {
+    height: 450px;
+    background-color: #615b9b;
+    color: #f7f7f7;
+    display: block;
+    margin: 0px auto;
+  }
+  .sixImage {
+    display: none;
+  }
+  .fiveSectionContent {
+    height: 85%;
+    color: #ffff;
+    padding: 50px 20px;
+  }
+  .fiveSectionContentTitle {
+    letter-spacing: 1px;
+    font-family: "Proxima Nova Light";
+    font-size: 40px;
+    width: 90%;
+    line-height: 45px;
+  }
+  .fiveSectionContentDes {
+    letter-spacing: 1px;
+    font-family: "Proxima Nova Light";
+    width: 95%;
+    line-height: 25px;
+    margin-top: 30px;
+  }
+  .rmv-m {
+    display: none;
+  }
+  .m-mBTN {
+    margin: 20px 0px 10px 0px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1.5px solid #fff;
+    color: #f7f7f7;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .cgc {
+    width: 100vw;
+  }
+
+  .sixSection {
+    height: 250px;
+    background-color: #fff;
+    padding: 0px 20px 70px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sixTitle {
+    color: #1b1740;
+    margin-top: 50px;
+    font-size: 40px;
+  }
+  .six-content {
+    text-align: left;
+    width: 95%;
+  }
+  .sixdes {
+    margin-top: 30px;
+    line-height: 25px;
+  }
+
+  .footer {
+    display: none;
+  }
+  .footer-m {
+    padding: 20px;
+    background-color: #1b1740;
+  }
+  .ftr-m-c {
+    color: #756fac;
+    font-weight: bolder;
+    display: flex;
+    margin-top: 20px;
+  }
+  .fa-phone-alt {
+    margin: 0px 10px -2px 0px;
+  }
+  .add-m {
+    color: #fff;
+    margin: 5px 30px;
+  }
+  .ftr-social {
+    height: 30px;
+    margin: 20px 0px 20px 25px;
+  }
+  .ftr-logo-des {
+    font-size: 13px;
+    margin: 40px 0px 20px 20px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+  }
+  /* Short Search Mobile */
+  .short-search-mobile{
+    position: absolute;
+    top:100px;
+    background-color: #756fac;
+    padding:20px 0px;
+    width:100vw;
+    text-align: center;
+  }
+  .shortSearch {
+    padding: 10px 15px;
+    background-color: #756fac;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 9999999999999999;
+    /* position: fixed; */
+    right: 110px;
+    top: 102px;
+  }
+}
