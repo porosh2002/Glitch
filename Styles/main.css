@@ -18,7 +18,7 @@ body {
 }
 /* Button */
 @media screen and (min-width: 900px) {
-  .mobileSearchShort{
+  .mobileSearchShort {
     display: none;
   }
   .secoundMenuBtn {
@@ -224,7 +224,7 @@ body {
   background-size: cover;
 }
 @media screen and (min-width: 900px) {
-  .cgc,
+  .mobileMenu,.cgc,
   .footer-m {
     display: none;
   }
@@ -479,18 +479,19 @@ body {
   .shortSearch {
     padding: 0px 15px 5px 15px;
     background-color: #756fac;
-    border-radius:2px;
+    border-radius: 2px;
     position: absolute;
     z-index: 99999;
     position: fixed;
     right: 110px;
     top: 72px;
   }
-  select,option{
+  select,
+  option {
     font-weight: bold;
-    letter-spacing:.5px;
+    letter-spacing: 0.5px;
     font-family: "Proxima Nova";
-    font-size: 15px ;
+    font-size: 15px;
   }
   .mobile {
     display: none;
@@ -728,25 +729,25 @@ body {
   }
   /* Short Search Mobile */
   .shortSearch {
-    display:block;
+    display: block;
     background-color: #756fac;
     position: absolute;
     z-index: 99999;
     position: fixed;
-    width:100%;
+    width: 100%;
     top: 100px;
-    padding-bottom:10px;
+    padding-bottom: 10px;
   }
   .Short-keyword-s {
     font-size: 13px;
     padding: 15px 15px;
     outline: none;
-    width:85%;
+    width: 85%;
     border: none;
     font-weight: 600;
     color: #29303b;
     display: block;
-    margin:10px auto;
+    margin: 10px auto;
     border-radius: 2px;
     appearance: none;
     background-color: #fff;
@@ -755,15 +756,47 @@ body {
     background: url("../Images/up-and-down.png") no-repeat left 94.5%
       center/15px 15px;
   }
-  select option{
+  select option {
     color: #1b1740;
   }
+  /* mobileMenu */
+
+
+
+.mobileMenu{
+  background-color:#1b1740;
+}
+.mobileMenu ul li{
+  list-style-type:none;
+  padding:15px 30px;
+}
+.mobileMenu ul li:hover{
+  list-style-type:none;
+  background-color:#6baac1;
+}
+.mobileMenu ul li a{
+color: #f7f7f7;
+/* font-weight: 600; */
+font-size:16px;
+letter-spacing:.5px;
+text-decoration: none;
+}
+.timesMenu{
+  color: #fff;
+  font-size:30px;
+text-align: right;
+padding:30px;
+}
+.timesMenu:hover{
+  background-color:#1b1740 !important;
+}
+
 
 }
 .SearchBTN-srt {
   display: block;
   margin: 10px auto;
-  padding: 10px 15px;
+  padding: 10px 0px 10px 15px;
   font-size: 13px;
   font-weight: 600;
   background-color: transparent;
