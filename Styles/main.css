@@ -495,9 +495,6 @@ body {
   .mobile {
     display: none;
   }
-  .None {
-    display: none;
-  }
   .mobile-cntnt {
     display: none;
   }
@@ -780,4 +777,7 @@ body {
 .SearchBTN-srt:hover {
   background-color: #1b1740;
   border: 1px solid transparent;
+}
+.None {
+  display: none;
 }
