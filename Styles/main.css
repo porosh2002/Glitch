@@ -259,7 +259,6 @@ body {
     background-color: #fff;
   }
   .Short-keyword-s {
-    font-size: 13px;
     padding: 10px 15px;
     outline: none;
     width: 200px;
@@ -277,7 +276,7 @@ body {
       center/15px 15px;
   }
   .SearchBTN {
-    margin: 20px 0px 0px 10px;
+    margin: 50px 0px 0px 10px;
     padding: 15px;
     font-size: 15px;
     font-weight: 600;
@@ -408,21 +407,6 @@ body {
     text-align: left;
     width: 50%;
   }
-  /* .six-btn{
-  padding:10px 15px;
-  margin-top:30px;
-  border: 1px solid #51499c;
-  color: #51499c;
-  font-weight: 600;
-  border-radius:3px;
-  outline: none;
-  cursor: pointer;
-}
-.six-btn:hover{
-  border: 1px solid transparent;
-  background-color: #51499c;
-  color: #fff;
-} */
   .sixImage {
     height: 300px;
     padding-top: 130px;
@@ -802,7 +786,7 @@ padding:30px;
 .SearchBTN-srt {
   display: block;
   margin: 10px auto;
-  padding: 10px 0px 10px 15px;
+  padding: 10px 15px;
   font-size: 13px;
   font-weight: 600;
   background-color: transparent;
