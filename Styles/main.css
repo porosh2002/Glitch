@@ -289,24 +289,6 @@ body {
     cursor: pointer;
     letter-spacing: 0.5px;
   }
-  .SearchBTN-srt {
-    display: block;
-    margin: 10px auto;
-    padding: 10px 15px;
-    font-size: 13px;
-    font-weight: 600;
-    background-color: transparent;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 3px;
-    outline: none;
-    cursor: pointer;
-    letter-spacing: 0.5px;
-  }
-  .SearchBTN-srt:hover {
-    background-color: #1b1740;
-    border: 1px solid transparent;
-  }
   .SearchBTN:hover {
     background-color: #1b1740;
     border: 1px solid transparent;
@@ -501,9 +483,14 @@ body {
     position: absolute;
     z-index: 99999;
     position: fixed;
-    font-weight:bolder;
     right: 110px;
     top: 72px;
+  }
+  select,option{
+    font-weight: bold;
+    letter-spacing:.5px;
+    font-family: "Proxima Nova";
+    font-size: 15px ;
   }
   .mobile {
     display: none;
@@ -773,4 +760,23 @@ body {
   select option{
     color: #1b1740;
   }
+
+}
+.SearchBTN-srt {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 15px;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+.SearchBTN-srt:hover {
+  background-color: #1b1740;
+  border: 1px solid transparent;
 }
