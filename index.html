@@ -17,17 +17,19 @@
 
 <body>
   <!-- Mobile Menu -->
-  <div class="mobileMenu">
+  <div id="mobileMenu" class="mobileMenu None">
     <ul>
-      <li class="timesMenu"><i class="fas fa-times-circle"></i></li>
+      <li class="timesMenu"><i id="TimesMenu" class="fas fa-times-circle"></i></li>
       <li><a href="#">HOME</a></li>
       <li><a href="#">TIMESHEETS</a></li>
       <li><a href="#">MEDICAL</a></li>
-      <li><a href="#">ENGINEERING/PROJECTS/OPERATIONS</a></li>
-      <li><a href="#">OUR INDUSTIES</a></li>
-      <li><a href="#">BROWSE JOBS</a></li>
-      <li><a href="#">REGISTER & UPLOAD CV</a></li>
-      <li><a href="#">CONTACT</a></li>
+      <li id='menu_sub'><a style="display: flex;" href="#">ENGINEERING/PROJECTS/OPERATIONS <i style="margin-left: 5px;" class="fas fa-chevron-down"></i></a></li>
+<div id='menu_sub_content' class="None" >
+  <li><a href="#">OUR INDUSTIES</a></li>
+  <li><a href="#">BROWSE JOBS</a></li>
+  <li><a href="#">REGISTER & UPLOAD CV</a></li>
+  <li><a href="#">CONTACT</a></li>
+</div>
       <li><a href="#">CONSULTING</a></li>
     </ul>
   </div>
@@ -56,7 +58,7 @@
         <a href="#"><img class="logo" src="./Images/Logo.png" alt="Connect Personnel" /></a>
         <div class='mobile-cntnt'>
           <div id='mobileSEarchIcon'><i class="fas fa-search"></i></div>
-          <div><i class="fas fa-bars"></i></div>
+          <div id="BarMobile"><i class="fas fa-bars"></i></div>
         </div>
       </div>
       <!-- <a href="#"><img class="logo" src="./Images/Logo.png" alt="Connect Personnel" /></a> -->

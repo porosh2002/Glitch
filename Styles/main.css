@@ -764,7 +764,12 @@ body {
 
 
 .mobileMenu{
+  position:sticky;
+  top:0;
+  z-index: 99999999999;
+  width:100%;
   background-color:#1b1740;
+  padding-bottom:30px;
 }
 .mobileMenu ul li{
   list-style-type:none;
@@ -776,7 +781,6 @@ body {
 }
 .mobileMenu ul li a{
 color: #f7f7f7;
-/* font-weight: 600; */
 font-size:16px;
 letter-spacing:.5px;
 text-decoration: none;
@@ -790,7 +794,9 @@ padding:30px;
 .timesMenu:hover{
   background-color:#1b1740 !important;
 }
-
+#menu_sub_content li{
+  padding-left:70px;
+}
 
 }
 .SearchBTN-srt {
