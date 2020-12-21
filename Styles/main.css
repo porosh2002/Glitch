@@ -738,6 +738,7 @@ body {
     position: fixed;
     width:100%;
     top: 100px;
+    padding-bottom:10px;
   }
   .Short-keyword-s {
     font-size: 13px;
